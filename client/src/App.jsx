@@ -1,5 +1,5 @@
-import './styles/App.css'
 import StockList from './components/StockList/StockList'
+import './styles/App.css'
 
 const App = () => {
   return (
