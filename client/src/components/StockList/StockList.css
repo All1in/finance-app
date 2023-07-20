@@ -7,49 +7,35 @@
 }
 
 .stock-item {
-  background-color: #f8f8f8;
-  padding: 10px;
-  border-radius: 8px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
   width: 200px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.stock-item h2 {
-  font-size: 20px;
-  margin-bottom: 10px;
+.hidden {
+  display: none;
 }
 
-.stock-item .price {
-  font-weight: bold;
-  transition: color 0.3s;
+.price {
+  font-size: 18px;
+  margin-bottom: 5px;
 }
 
-.stock-item .price.up {
+.price.up {
   color: green;
 }
 
-.stock-item .price.down {
+.price.down {
   color: red;
 }
 
-.stock-item .change {
-  color: #888;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: color 0.3s;
+.change {
+  font-size: 16px;
+  margin-top: 5px;
 }
 
-.arrow-green {
-  color: rgb(0, 255, 0);
-  animation-name: green-bounce;
-  animation-duration: 0.5s;
-  animation-fill-mode: forwards;
-}
 
-.arrow-red {
-  color: rgb(255, 0, 0);
-  animation-name: red-flash;
-  animation-duration: 0.5s;
-  animation-fill-mode: forwards;
-}

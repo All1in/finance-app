@@ -3,7 +3,7 @@ import './styles/App.css'
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="app-container">
       <h1>My Finance App</h1>
       <StockList />
       <h2>P.S (When the price goes up the it is shown as a green color, otherwise red)</h2>
